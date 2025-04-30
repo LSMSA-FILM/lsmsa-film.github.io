@@ -3,7 +3,7 @@ title: LSMSA FILM
 description: >-
   LSMSA FILM
 domain: "lsmsa-film.github.io"
-url: "https://lsmsa-robotics-9761.github.io"
+url: "https://lsmsa-film.github.io"
 baseurl: "/docs"
 
 # Config settings
@@ -31,7 +31,7 @@ callouts:
 
 # Build settings
 theme: just-the-docs
-remote_theme: just-the-docs
+# remote_theme: just-the-docs
 # plugins:
 #   - jekyll-feed
 exclude:
