@@ -1,0 +1,46 @@
+# Website settings
+title: LSMSA FILM
+description: >-
+  LSMSA FILM
+domain: "lsmsa-film.github.io"
+url: "https://lsmsa-robotics-9761.github.io"
+baseurl: "/docs"
+
+# Config settings
+aux_links:
+  Repository:
+    - https://github.com/LSMSA-FILM/lsmsa-film.github.io
+callouts:
+  highlight:
+    color: yellow
+  note:
+    title: Note
+    color: blue
+  tip:
+    title: Tip
+    color: green
+  important:
+    title: Important
+    color: purple
+  warning:
+    title: Warning
+    color: yellow
+  caution:
+    title: Caution
+    color: red
+
+# Build settings
+theme: just-the-docs
+# plugins:
+#   - jekyll-feed
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
