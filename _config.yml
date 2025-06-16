@@ -4,7 +4,7 @@ description: >-
   LSMSA FILM
 domain: "lsmsa-film.github.io"
 url: "https://lsmsa-film.github.io"
-baseurl: "/docs"
+# baseurl: "/docs"
 
 # Config settings
 aux_links:

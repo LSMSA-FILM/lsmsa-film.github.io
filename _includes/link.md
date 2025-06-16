@@ -1,0 +1,4 @@
+---
+---
+
+[link]({% link include.path %})
