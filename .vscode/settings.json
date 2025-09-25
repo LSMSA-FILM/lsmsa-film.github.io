@@ -1,0 +1,7 @@
+{
+  "editor.tabSize": 2,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // "search.useIgnoreFiles": true,
+  // "search.useParentIgnoreFiles": true,
+  // "search.useGlobalIgnoreFiles": true
+}
