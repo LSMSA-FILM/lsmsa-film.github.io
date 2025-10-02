@@ -1,6 +1,6 @@
 ---
-title: TriCaster System
-sidebar_position: 3
+title: Mobile App
+sidebar_position: 6
 ---
 
-# Livestreaming using LSMSA's TC Mini X system
+# Livestreaming at LSMSA using a mobile app for a livestreaming platform

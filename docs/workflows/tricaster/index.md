@@ -1,6 +1,7 @@
 ---
-title: Mobile App
-sidebar_position: 6
+title: TriCaster System
+sidebar_position: 3
+icon: "🖥️"
 ---
 
-# Livestreaming at LSMSA using a mobile app for a livestreaming platform
+# Livestreaming using LSMSA's TC Mini X system
