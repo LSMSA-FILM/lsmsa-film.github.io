@@ -101,6 +101,12 @@ const config = {
             position: "left",
             label: "Livestreaming Docs",
           },
+          {
+            type: "docSidebar",
+            sidebarId: "assets",
+            position: "left",
+            label: "Assets",
+          },
           // { to: "/blog", label: "Blog", position: "left" },
           {
             href: "https://github.com/lsmsa-film/lsmsa-film.github.io",

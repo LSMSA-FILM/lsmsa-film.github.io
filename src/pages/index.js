@@ -61,6 +61,13 @@ function DocumentationButtonsSection() {
                 description: "Guide on how to livestream at LSMSA",
                 icon: "📻",
               },
+              {
+                type: "link",
+                href: "/docs/assets",
+                label: "Assets",
+                description: "Files and media for LSMSA FILM",
+                icon: "🗃",
+              },
             ]}
           />
         </div>
