@@ -1,6 +1,7 @@
 ---
-title: Broadcaster Box
+title: 📻 Broadcaster Box
 sidebar_position: 5
+icon: 📻
 ---
 
 # Livestreaming using LSMSA's Teradek Vidiu Go

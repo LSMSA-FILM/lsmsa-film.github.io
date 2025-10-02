@@ -1,6 +1,7 @@
 ---
-title: OBS Studio
+title: 💻 OBS Studio
 sidebar_position: 4
+icon: 💻
 ---
 
 # Livestreaming at LSMSA using OBS Studio

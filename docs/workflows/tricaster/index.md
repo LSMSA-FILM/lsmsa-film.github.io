@@ -1,7 +1,7 @@
 ---
-title: TriCaster System
+title: 🖥️ TriCaster System
 sidebar_position: 3
-icon: "🖥️"
+icon: 🖥️
 ---
 
 # Livestreaming using LSMSA's TC Mini X system
