@@ -11,7 +11,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "LSMSA FILM",
-  // tagline: "Bruh",
+  tagline: "Student events, recitals, sports, film projects, and more",
   favicon: "img/navbar_logo.png",
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future

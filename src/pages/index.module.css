@@ -3,25 +3,138 @@
  * and scoped locally.
  */
 
-.heroTitle {
+.heroTitle,
+.heroSubtitle {
   color: white;
 }
 
 .heroBanner {
+  background: linear-gradient(
+      to top,
+      #1e232c40 0%,
+      transparent 10%,
+      transparent 90%,
+      #1e232c40 100%
+    ),
+    linear-gradient(
+      to top,
+      var(--ifm-hero-background-color),
+      var(--ifm-hero-background-color)
+    );
   padding: 4rem 0;
-  text-align: center;
+  /* text-align: center; */
   position: relative;
   overflow: hidden;
+}
+
+.heroContainer {
+  display: flex;
+}
+
+.buttons {
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+
+  gap: 2rem;
+}
+
+.heroImage {
+  margin-inline: auto;
+  padding-inline: 40px;
+}
+
+.heroImage img {
+  max-height: 180px;
 }
 
 @media screen and (max-width: 996px) {
   .heroBanner {
     padding: 2rem;
   }
+
+  .heroContainer {
+    flex-direction: column-reverse;
+  }
+
+  .heroImage {
+    margin-inline: 0;
+    padding-block: 24px;
+  }
+
+  .heroImage img {
+    max-width: 128px;
+  }
 }
 
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+:root {
+  --brand-color-youtube: #ff0033;
+  --brand-color-youtube-dark: #e0002d;
+  --brand-color-instagram: #ea33bb;
+  --brand-color-instagram-dark: #6922f5;
+  /* --brand-color-instagram: linear-gradient(
+    45deg,
+    #405de6,
+    #5851db,
+    #833ab4,
+    #c13584,
+    #e1306c,
+    #fd1d1d
+  ); */
+}
+
+.buttonYoutube {
+  --ifm-button-background-color: var(--brand-color-youtube);
+}
+
+.buttonYoutube:hover {
+  --ifm-button-background-color: var(--brand-color-youtube-dark);
+}
+
+.buttonOutlineYoutube {
+  --ifm-button-border-color: var(--brand-color-youtube);
+}
+
+.buttonInstagram {
+  --ifm-button-background-color: var(--brand-color-instagram);
+}
+
+.buttonInstagram:hover {
+  --ifm-button-background-color: var(--brand-color-instagram-dark);
+}
+
+.buttonOutlineInstagram {
+  --ifm-button-border-color: var(--brand-color-instagram);
+}
+
+.buttonYoutube,
+.buttonInstagram {
+  --ifm-button-color: white;
+}
+
+.buttonYoutube:hover,
+.buttonInstagram:hover,
+.buttonOutlineYoutube:hover,
+.buttonOutlineInstagram:hover {
+  color: white;
+}
+
+.section {
+  padding: 40px 0;
+}
+
+.sectionHeading {
+  text-align: center;
+}
+
+.documentationLinks {
+  width: 70%;
+
+  margin-inline: auto;
+}
+
+@media (max-width: 996px) {
+  .documentationLinks {
+    width: 90%;
+  }
 }
