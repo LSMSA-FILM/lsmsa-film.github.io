@@ -5,3 +5,7 @@ icon: "🖥️"
 ---
 
 # Livestreaming using LSMSA's TC Mini X system
+
+import PageStub from "@site/src/components/PageStub";
+
+<PageStub />
