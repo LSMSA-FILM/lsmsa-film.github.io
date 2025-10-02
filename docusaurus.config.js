@@ -10,7 +10,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "LSMSA Film Documentation",
+  title: "LSMSA FILM",
   // tagline: "Bruh",
   favicon: "img/navbar_logo.png",
 
@@ -77,8 +77,14 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      docs: {
+        sidebar: {
+          hideable: true,
+          autoCollapseCategories: true,
+        },
+      },
       // Replace with your project's social card
-      image: "img/docusaurus-social-card.jpg",
+      // image: "img/docusaurus-social-card.jpg",
       colorMode: {
         respectPrefersColorScheme: true,
       },
@@ -91,9 +97,9 @@ const config = {
         items: [
           {
             type: "docSidebar",
-            sidebarId: "tutorialSidebar",
+            sidebarId: "livestreaming",
             position: "left",
-            label: "Tutorial",
+            label: "Livestreaming Docs",
           },
           // { to: "/blog", label: "Blog", position: "left" },
           {
@@ -153,6 +159,19 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
+  plugins: [
+    // "@docusaurus/plugin-ideal-image",
+    [
+      "@docusaurus/plugin-ideal-image",
+      {
+        quality: 70,
+        max: 1030, // max resized image's size.
+        min: 640, // min resized image's size. if original is lower, use that size.
+        steps: 2, // the max number of images generated between min and max (inclusive)
+        disableInDev: false,
+      },
+    ],
+  ],
 };
 
 export default config;
