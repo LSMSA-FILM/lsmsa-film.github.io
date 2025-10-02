@@ -15,7 +15,7 @@ This documentation was written with the [Louisiana School for the Math, Science,
 
 ## Why is there so much information?
 
-You probably don't need to read everything here. Thus, don't be overwhelmed by how much information is in this documentation! If you're confused on how to get started, **start at [Quick Start](./getting-started/quick-start.md) and continue from there.**
+You probably don't need to read everything here. Thus, don't be overwhelmed by how much information is in this documentation! If you're confused on how to get started, **start at [Quick Start](livestreaming/getting-started/quick-start.md) and continue from there.**
 
 ## Who wrote this documentation?
 

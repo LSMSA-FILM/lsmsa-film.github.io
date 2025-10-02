@@ -4,12 +4,13 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import DocCardList from "@site/src/theme/DocCardList";
+import SidebarCardList from "@site/src/components/SidebarCardList";
 import Image from "@theme/IdealImage";
 
 import Heading from "@theme/Heading";
 import styles from "./index.module.css";
 
-function HomepageHeader() {
+function HomepageHero() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <header className={clsx("hero hero--dark", styles.heroBanner)}>
@@ -21,7 +22,7 @@ function HomepageHeader() {
           <p className={clsx("hero__subtitle", styles.heroSubtitle)}>
             {siteConfig.tagline}
           </p>
-          <div className={styles.buttons}>
+          <div className={styles.heroButtons}>
             <Link
               className={clsx("button button--lg", styles.buttonYoutube)}
               to="https://www.youtube.com/@lsmsastudentfilm"
@@ -44,32 +45,18 @@ function HomepageHeader() {
   );
 }
 
-function DocumentationButtonsSection() {
+function DocumentationCardsSection() {
+  const { siteConfig } = useDocusaurusContext();
   return (
     <div className={clsx(styles.section)}>
       <div className="container">
-        <Heading as="h2" className={clsx(styles.sectionHeading)}>
-          Documentation
-        </Heading>
+        <Link to="docs" className={styles.sectionHeadingLink}>
+          <Heading as="h2" className={clsx(styles.sectionHeading)}>
+            Documentation
+          </Heading>
+        </Link>
         <div className={styles.documentationLinks}>
-          <DocCardList
-            items={[
-              {
-                type: "link",
-                href: "/docs",
-                label: "Livestreaming",
-                description: "Guide on how to livestream at LSMSA",
-                icon: "📻",
-              },
-              {
-                type: "link",
-                href: "/docs/assets",
-                label: "Assets",
-                description: "Files and media for LSMSA FILM",
-                icon: "🗃",
-              },
-            ]}
-          />
+          <SidebarCardList />
         </div>
       </div>
     </div>
@@ -83,9 +70,9 @@ export default function Home() {
       title={`Home | ${siteConfig.title}`}
       description="LSMSA Film Club - Commissions, Projects, Livestreaming, and more!"
     >
-      <HomepageHeader />
+      <HomepageHero />
       <main>
-        <DocumentationButtonsSection />
+        <DocumentationCardsSection />
         {/* <HomepageFeatures /> */}
       </main>
     </Layout>

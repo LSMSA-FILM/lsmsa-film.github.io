@@ -31,7 +31,7 @@
   display: flex;
 }
 
-.buttons {
+.heroButtons {
   display: flex;
   /* align-items: center;
   justify-content: center; */
@@ -125,6 +125,14 @@
 
 .sectionHeading {
   text-align: center;
+}
+
+a.sectionHeadingLink {
+  color: var(--ifm-heading-color);
+}
+
+a.sectionHeadingLink:hover {
+  text-decoration: none;
 }
 
 .documentationLinks {

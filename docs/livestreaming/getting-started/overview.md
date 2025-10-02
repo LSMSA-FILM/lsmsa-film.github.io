@@ -21,11 +21,11 @@ The word "livestreaming" is used instead of "broadcasting" because livestreaming
 
 In general, LSMSA livestreams fall into one of the following types of events:
 
-1. **[School Assemblies](/docs/locations/assemblies/index.md)** - Graduation, ring ceremonies, matriculation ceremonies, convocations, etc.
-2. **[Athletics](/docs/locations/athletics/index.md)** - SLAMT, home games during a sport's season, etc.
+1. **[School Assemblies](/docs/livestreaming/locations/assemblies/index.md)** - Graduation, ring ceremonies, matriculation ceremonies, convocations, etc.
+2. **[Athletics](/docs/livestreaming/locations/athletics/index.md)** - SLAMT, home games during a sport's season, etc.
    More information about how to livestream for that type of event is available on their corresponding page in this wiki.
-3. **[Esports](/docs/locations/esports/index.md)** - Esports tournaments, esports gaming room, etc.
-4. **[Recitals](/docs/locations/recitals/index.md)** - Student recitals, dance recitals, theatre shows, etc.
+3. **[Esports](/docs/livestreaming/locations/esports/index.md)** - Esports tournaments, esports gaming room, etc.
+4. **[Recitals](/docs/livestreaming/locations/recitals/index.md)** - Student recitals, dance recitals, theatre shows, etc.
 
 ## Where are livestreams sent to?
 
@@ -44,10 +44,10 @@ The goal is that streams that are sent to the LSMSA Vimeo channel will be stream
 
 ## How do you livestream?
 
-At LSMSA, there are several methods that enables one to livestream to any one (or multiple) of the aforementioned destinations. Each of them have their own pros and cons, which are listed in [Workflow Comparison](/docs/workflows/overview#workflow-comparison). The primary methods for livestreaming are as follows:
+At LSMSA, there are several methods that enables one to livestream to any one (or multiple) of the aforementioned destinations. Each of them have their own pros and cons, which are listed in [Workflow Comparison](/docs/livestreaming/workflows/overview#workflow-comparison). The primary methods for livestreaming are as follows:
 
 1. **LSMSA's TriCaster (TC Mini X) system** - Allows for advanced livestreaming and professional-looking post-production work to be done to the livestream. The "TriCaster" allows for on-screen graphics, changing camera angles, transitions, and much more. Has a steep learning curve.
-2. **OBS Studio on a student's personal computer** - Allows for advanced livestreaming. With some work and the addition of several plugins (listed in [OBS Plugins](/docs/reference/assets/obs-plugins.md)), you can get a professional look that approaches that of the TriCaster. Requires a lot of work to get something that looks good; you can use one of the pre-made scene collections in [OBS Scene Collections](/docs/reference/assets/obs-scene-collections).
+2. **OBS Studio on a student's personal computer** - Allows for advanced livestreaming. With some work and the addition of several plugins (listed in [OBS Plugins](/docs/livestreaming/reference/assets/obs-plugins)), you can get a professional look that approaches that of the TriCaster. Requires a lot of work to get something that looks good; you can use one of the pre-made scene collections in [OBS Scene Collections](/docs/livestreaming/reference/assets/obs-scene-collections).
 3. **A livestream broadcaster box** - Lets you stream directly from a camera output. Doesn't allow for post-production, but is the simplest to set up and can be left alone during the event. Because login information can be stored on the device, these devices are portable and can be easily plugged into an existing camera setup (for example, the setup at NSU's A.A. Fredericks Hall). The following are livestream broadcaster boxes available for use:
    - LSMSA's Teradek Vidiu Go
 4. **Mobile app for a livestreaming platform** - YouTube and Instagram allow accounts to directly livestream a device's camera to their platforms in the app, at the cost of customization. The only benefit to this option is how portable it is, as all you need is a phone and the login info for the account you wish to stream to.
