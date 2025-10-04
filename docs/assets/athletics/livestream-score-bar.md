@@ -1,9 +1,7 @@
 ---
-title: Overview
-sidebar_position: 0
+title: Livestream Score Bar
+sidebar_position: 2
 ---
-
-# Assets Library
 
 import PageStub from "@site/src/components/PageStub";
 

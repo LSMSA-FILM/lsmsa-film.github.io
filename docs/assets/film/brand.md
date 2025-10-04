@@ -1,9 +1,7 @@
 ---
-title: Overview
+title: Logo & Brand
 sidebar_position: 0
 ---
-
-# Assets Library
 
 import PageStub from "@site/src/components/PageStub";
 

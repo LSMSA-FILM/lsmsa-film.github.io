@@ -1,9 +1,7 @@
 ---
-title: Overview
-sidebar_position: 0
+title: Stream/Video Thumbnails
+sidebar_position: 1
 ---
-
-# Assets Library
 
 import PageStub from "@site/src/components/PageStub";
 
