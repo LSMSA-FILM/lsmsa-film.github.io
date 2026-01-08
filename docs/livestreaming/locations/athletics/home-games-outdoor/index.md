@@ -1,6 +1,5 @@
 ---
 title: Home Games (outdoors)
-parent: Streaming for Athletics
 sidebar_position: 2
 ---
 

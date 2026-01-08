@@ -1,6 +1,5 @@
 ---
 title: Away Games
-parent: Streaming for Athletics
 sidebar_position: 3
 ---
 
